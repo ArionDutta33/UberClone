@@ -435,3 +435,80 @@ form>input {
     height: 100%;
     width: 100%;
 }
+
+.ft-page {
+    display: flex;
+}
+
+.ft-wrapper-left {
+    width: 50vw;
+    padding-top: 4rem;
+    padding-left: 23.5rem;
+}
+
+.ft-inner-wrapper {
+    width: 34rem;
+    height: 34rem;
+    margin-top: 5.5rem;
+
+}
+
+.ft-inner-wrapper img {
+    height: 100%;
+    width: 100%;
+}
+
+.ft-wrapper-right {
+    width: 50%;
+}
+
+.ft-inner-wrapper-text {
+    width: 60%;
+    padding-top: 20rem;
+    padding-left: 6rem;
+}
+
+.ft-page-header {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ft-page-para {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.ft-pagebtn {
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background: #000;
+    color: white;
+    font-size: 1rem;
+}
+
+.ft-page-link {
+    margin-left: 1.5rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: black;
+    font-size: 1rem;
+}
