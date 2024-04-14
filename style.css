@@ -188,19 +188,21 @@ form>input {
 }
 
 .dropdown {
-    background: yellow;
+    background: rgb(255, 255, 255);
     color: black;
     position: absolute;
     top: 60px;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 1;
 }
 
 .wrapper-dropdown {
-    background: red;
     height: 60%;
     width: 60%;
     display: flex;
@@ -209,7 +211,6 @@ form>input {
 }
 
 .box {
-    border: 1px solid white;
     width: 50%;
     height: 50%;
     font-family: "Montserrat", sans-serif;
@@ -227,11 +228,11 @@ form>input {
 }
 
 .in-box {
-    border: 1px solid blue;
     padding-bottom: 4rem;
     margin-right: 2rem;
     padding-top: 2rem;
     width: 86%;
+    border-bottom: 1px solid gray;
 }
 
 .pos-1 {
@@ -247,6 +248,29 @@ form>input {
 .pos-3 {
     position: relative;
     left: 3rem;
+}
+
+.active-dropdown {
+    transform: scaleY(1);
+}
+
+.xmark {
+    font-size: 2rem;
+    position: fixed;
+    top: 4rem;
+    left: 94rem;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    border-radius: 50%;
+}
+
+.xmark:hover {
+    background: #dcdcdc;
+    border-radius: 50%;
+}
+
+.disable-dropdown {
+    opacity: 0;
 }
 
 /* 
