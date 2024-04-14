@@ -520,6 +520,8 @@ form>input {
     padding-left: 20rem;
     margin-top: 5rem;
     display: flex;
+    position: relative;
+    padding-bottom: 8rem;
 }
 
 .col1 {
@@ -577,7 +579,6 @@ form>input {
 }
 
 .col2 {
-    background: red;
     margin-left: 8rem;
     margin-top: 9rem;
     font-family: "Noto Sans", sans-serif;
@@ -590,4 +591,62 @@ form>input {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+}
+
+.col3 {
+    margin-left: 8rem;
+    margin-top: 9rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.col4 {
+    margin-left: 8rem;
+    margin-top: 9rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.icons {
+    position: absolute;
+    bottom: 3rem;
+    left: 24rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-icons {
+    width: 50%;
+    display: flex;
+    gap: 6.5rem;
+    font-size: 1.2rem;
+}
+
+.right-icons {
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+}
+
+.loc {
+    margin-left: 10rem;
 }
