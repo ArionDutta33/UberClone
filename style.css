@@ -280,7 +280,6 @@ form>input {
 }
 
 .wrapper-left {
-    background: red;
     width: 50vw;
     padding-top: 4rem;
     padding-left: 23.5rem;
@@ -300,12 +299,10 @@ form>input {
 }
 
 .wrapper-right {
-    background: yellow;
     width: 50%;
 }
 
 .inner-wrapper-text {
-    background: lime;
     width: 60%;
     padding-top: 10rem;
     padding-left: 6rem;
@@ -324,10 +321,11 @@ form>input {
 .second-page-para {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     margin-bottom: 1.5rem;
-    font-size: 1rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
 }
 
 .second-pagebtn {
