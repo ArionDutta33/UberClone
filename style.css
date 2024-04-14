@@ -99,17 +99,16 @@ body {
 }
 
 .left-box {
-    background: red;
     width: 50%;
     height: calc(100% - 7%);
     display: flex;
     align-items: center;
     justify-content: end;
+    position: relative;
 
 }
 
 .wrapper-left-box {
-    border: 1px solid white;
     height: 100%;
     width: 65%;
     display: flex;
@@ -139,7 +138,6 @@ body {
 }
 
 .short-header+form {
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     height: 40%;
@@ -170,4 +168,21 @@ form>input {
     font-style: normal;
     border-radius: .5rem;
     font-size: 1rem;
+}
+
+.right-box {
+    position: absolute;
+    top: 7rem;
+    right: 25rem;
+    height: 76vh;
+    width: 30vw;
+
+}
+
+.right-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .6rem;
 }
