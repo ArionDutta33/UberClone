@@ -360,14 +360,12 @@ form>input {
 
 .th-wrapper-left {
     width: 50%;
-    background: red;
     display: flex;
     align-items: center;
     justify-content: end;
 }
 
 .inner-th-wrapper {
-    background: yellow;
     width: 60%;
     padding-top: 10rem;
     padding-left: 1rem;
@@ -417,4 +415,23 @@ form>input {
         "wdth" 100;
     color: black;
     font-size: 1rem;
+}
+
+.th-wrapper-right {
+    width: 50vw;
+    padding-top: 4rem;
+    padding-right: 23.5rem;
+}
+
+
+
+.th-inner-wrapper-right {
+    width: 34rem;
+    height: 34rem;
+    margin-top: 5.5rem;
+}
+
+.th-inner-wrapper-right img {
+    height: 100%;
+    width: 100%;
 }
