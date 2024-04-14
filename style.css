@@ -186,3 +186,40 @@ form>input {
     object-position: center;
     border-radius: .6rem;
 }
+
+.dropdown {
+    background: yellow;
+    color: black;
+    position: absolute;
+    top: 60px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-dropdown {
+    background: red;
+    height: 60%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 1rem;
+}
+
+.box {
+    border: 1px solid white;
+    width: 50%;
+    height: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.1rem;
+    padding-top: 3rem;
+}
+
+.in-box {
+    border: 1px solid blue;
+}
