@@ -353,3 +353,68 @@ form>input {
     color: black;
     font-size: 1rem;
 }
+
+.third-page {
+    display: flex;
+}
+
+.th-wrapper-left {
+    width: 50%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.inner-th-wrapper {
+    background: yellow;
+    width: 60%;
+    padding-top: 10rem;
+    padding-left: 1rem;
+
+}
+
+.th-header {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.th-para {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.th-pagebtn {
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    background: #000;
+    color: white;
+    font-size: 1rem;
+}
+
+.th-page-link {
+    margin-left: 1.5rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: black;
+    font-size: 1rem;
+}
