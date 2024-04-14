@@ -3,10 +3,16 @@ const dropdown = document.querySelector(".dropdown")
 const xmark = document.querySelector(".xmark")
 //*signup dropdown
 signUp.addEventListener("click", () => {
-    dropdown.classList.add("active-dropdown")
+    // if (!dropdown.classList.contains("active-dropdown")) {
+    //     dropdown.classList.add("active-dropdown")
+    // } else if (dropdown.classList.contains("active-dropdown")) {
+    //     dropdown.classList.remove("active-dropdown")
+    //     dropdown.classList.add("disable-dropdown")
+    // }
+    dropdown.classList.toggle("active-dropdown")
 
 })
 //*close event
 xmark.addEventListener("click", () => {
-    dropdown.classList.toggle("disable-dropdown")
+    dropdown.classList.remove("active-dropdown")
 })
