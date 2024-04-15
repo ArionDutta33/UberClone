@@ -645,6 +645,13 @@ form>input {
     display: flex;
     justify-content: end;
     gap: 3rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 1rem;
 }
 
 .loc {
